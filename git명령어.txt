@@ -1,0 +1,21 @@
+
+git명령어
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ejkim1051/react-study.git
+git push -u origin main
+
+
+git remote add origin https://github.com/ejkim1051/react-study.git
+git branch -M main
+git push -u origin main
+
+
+git add : 파일이 변경되거나, 수정되었을 때 git에게 알려주는 역할
+git add 뒤에 파일명을 적으면 특정 파일만 git 상태에 올라감
+
+git push origin main : 로컬 저장소에서 저장된 내용을 원격 저장소에 보내주는 명령어
+git pull origin main : 원격 저장소에 변경사항이 있으면 로컬 저장소에 불러오는 명령어
